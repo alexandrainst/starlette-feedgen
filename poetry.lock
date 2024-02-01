@@ -233,18 +233,14 @@ setuptools = "*"
 
 [[package]]
 name = "flake8-implicit-str-concat"
-version = "0.3.0"
+version = "0.4.0"
 description = "Flake8 plugin to encourage correct string literal concatenation."
 optional = false
 python-versions = "~=3.7"
 files = [
-    {file = "flake8_implicit_str_concat-0.3.0-py2.py3-none-any.whl", hash = "sha256:a89ebc50567790fb7b83e032ed4014ae0db70e35d89e269c3323967135023600"},
-    {file = "flake8_implicit_str_concat-0.3.0.tar.gz", hash = "sha256:c0e6ae227e46238e4c87844091f8072892caeccd3bb266576a7d449eadbf53a0"},
+    {file = "flake8_implicit_str_concat-0.4.0-py3-none-any.whl", hash = "sha256:b91805a3e0ff30ae2890830548478af25c79a4a579ec402a6ba3538043dff60c"},
+    {file = "flake8_implicit_str_concat-0.4.0.tar.gz", hash = "sha256:b6acf233afee943dc1802ef4bc242a19f0419fac9943739e235d3f2aaf616361"},
 ]
-
-[package.dependencies]
-attrs = ">=19.3"
-more-itertools = ">=8.0.2,<9"
 
 [[package]]
 name = "flake8-plugin-utils"
@@ -351,17 +347,6 @@ python-versions = ">=3.6"
 files = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
     {file = "mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325"},
-]
-
-[[package]]
-name = "more-itertools"
-version = "8.14.0"
-description = "More routines for operating on iterables, beyond itertools"
-optional = false
-python-versions = ">=3.5"
-files = [
-    {file = "more-itertools-8.14.0.tar.gz", hash = "sha256:c09443cd3d5438b8dafccd867a6bc1cb0894389e90cb53d227456b0b0bccb750"},
-    {file = "more_itertools-8.14.0-py3-none-any.whl", hash = "sha256:1bc4f91ee5b1b31ac7ceacc17c09befe6a40a503907baf9c839c229b5095cfd2"},
 ]
 
 [[package]]
@@ -590,4 +575,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "6010b3de2467975110c8aae08661f49a02b9c3b805b1c29a163e6694c1adf8ce"
+content-hash = "7ce907e817a461d0397704259b31000e9b97507c20b90be1381169703bd1b85f"
