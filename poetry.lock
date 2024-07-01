@@ -305,17 +305,20 @@ setuptools = "*"
 
 [[package]]
 name = "flake8-sfs"
-version = "0.0.3"
+version = "1.0.0"
 description = "Python String Formatting Style (SFS) plugin for flake8"
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "flake8-sfs-0.0.3.tar.gz", hash = "sha256:43936ce55c18fec8465b9640825dd27da7bb748f1bb899e8954cd9e3cae05a94"},
-    {file = "flake8_sfs-0.0.3-py2.py3-none-any.whl", hash = "sha256:16edd15f2dc8275137582549fcc6c56e0a36138a5d233fbbe0fea46c7b77d406"},
+    {file = "flake8-sfs-1.0.0.tar.gz", hash = "sha256:fc33279ff397f1bfc7e8f16c1921264290178f4b1f07464cc2b8d8a98cde11fc"},
+    {file = "flake8_sfs-1.0.0-py2.py3-none-any.whl", hash = "sha256:1745af5017e17728be77f1ccac842efb2bf93e63f2c010dce01bd9e2a1904789"},
 ]
 
 [package.dependencies]
-flake8 = ">=3.0.0"
+flake8 = ">=3"
+
+[package.extras]
+develop = ["build", "twine"]
 
 [[package]]
 name = "flake8-simplify"
@@ -613,4 +616,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4bf0cd02ab774b5689b42876ba749b6888a1a5540688c9b9b6cf297789247b0e"
+content-hash = "cbd1f05f335f4da0f795722bc2fb987264f5639e0375d6775bd73953abd726a8"
