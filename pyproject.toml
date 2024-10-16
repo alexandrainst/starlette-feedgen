@@ -23,7 +23,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-starlette = ">=0.37.2,<0.40.0"
+starlette = ">=0.37.2,<0.41.0"
 aiofiles = ">=22.1,<25.0"
 
 [tool.poetry.group.dev.dependencies]
