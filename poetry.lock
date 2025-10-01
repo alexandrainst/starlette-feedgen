@@ -327,14 +327,14 @@ setuptools = "*"
 
 [[package]]
 name = "flake8-sfs"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python String Formatting Style (SFS) plugin for flake8"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "flake8-sfs-1.0.0.tar.gz", hash = "sha256:fc33279ff397f1bfc7e8f16c1921264290178f4b1f07464cc2b8d8a98cde11fc"},
-    {file = "flake8_sfs-1.0.0-py2.py3-none-any.whl", hash = "sha256:1745af5017e17728be77f1ccac842efb2bf93e63f2c010dce01bd9e2a1904789"},
+    {file = "flake8_sfs-1.0.1-py3-none-any.whl", hash = "sha256:ef5f6b3e6d958894fe4c953ecf8e6156d9ab620c7e138f68af5c0f9bfdb4f6b4"},
+    {file = "flake8_sfs-1.0.1.tar.gz", hash = "sha256:0cab211f805efe2b29a8480fda0d46a8cedba1d45b4dd71b9bd0675804097149"},
 ]
 
 [package.dependencies]
@@ -696,4 +696,4 @@ markers = {main = "python_version < \"3.13\""}
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "51f817daf39725cb232ebf7cf9e9850f670a63af1f997d60bb7d94e5173b0a06"
+content-hash = "fb7f6a5525c09ff619087595dcdad0b7c14107b5be7d0c2d1110e18105d9e215"
