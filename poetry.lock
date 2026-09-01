@@ -293,19 +293,15 @@ flake8 = ">5"
 
 [[package]]
 name = "flake8-functions"
-version = "0.0.8"
+version = "0.1.0"
 description = "A flake8 extension that checks functions"
 optional = false
-python-versions = "*"
+python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "flake8_functions-0.0.8-py3-none-any.whl", hash = "sha256:e1a88aa634d1aff6973f8c9dd64f30ab2beaac661e52eea96929ccc7ee7f64df"},
-    {file = "flake8_functions-0.0.8.tar.gz", hash = "sha256:5446626673a9faecbf389fb411b90bdc87b002c387b72dc097b208e7a58f2a1c"},
+    {file = "flake8_functions-0.1.0-py3-none-any.whl", hash = "sha256:1e13213bbe923244d4a4640c2780d788e1c37ff1fbe41bacd02c6576c3afcc3d"},
+    {file = "flake8_functions-0.1.0.tar.gz", hash = "sha256:d4047bdf06c091b1156680505012d5c1139c9e52b2fefab7d5b18eea21e05f86"},
 ]
-
-[package.dependencies]
-mr-proper = "*"
-setuptools = "*"
 
 [[package]]
 name = "flake8-implicit-str-concat"
@@ -542,23 +538,6 @@ files = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
     {file = "mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325"},
 ]
-
-[[package]]
-name = "mr-proper"
-version = "0.0.7"
-description = "Static Python code analyzer, that tries to check if functions in code are pure or not and why."
-optional = false
-python-versions = "*"
-groups = ["dev"]
-files = [
-    {file = "mr_proper-0.0.7-py3-none-any.whl", hash = "sha256:74a1b60240c46f10ba518707ef72811a01e5c270da0a78b5dd2dd923d99fdb14"},
-    {file = "mr_proper-0.0.7.tar.gz", hash = "sha256:03b517b19e617537f711ce418b125e5f2efd82ec881539cdee83195c78c14a02"},
-]
-
-[package.dependencies]
-click = ">=7.1.2"
-setuptools = "*"
-stdlib-list = ">=0.5.0"
 
 [[package]]
 name = "mypy"
@@ -839,25 +818,6 @@ typing-extensions = {version = ">=4.10.0", markers = "python_version < \"3.13\""
 full = ["httpx (>=0.27.0,<0.29.0)", "httpx2 (>=2.0.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.18)", "pyyaml"]
 
 [[package]]
-name = "stdlib-list"
-version = "0.10.0"
-description = "A list of Python Standard Libraries (2.7 through 3.12)."
-optional = false
-python-versions = ">=3.7"
-groups = ["dev"]
-files = [
-    {file = "stdlib_list-0.10.0-py3-none-any.whl", hash = "sha256:b3a911bc441d03e0332dd1a9e7d0870ba3bb0a542a74d7524f54fb431256e214"},
-    {file = "stdlib_list-0.10.0.tar.gz", hash = "sha256:6519c50d645513ed287657bfe856d527f277331540691ddeaf77b25459964a14"},
-]
-
-[package.extras]
-dev = ["build", "stdlib-list[doc,lint,test]"]
-doc = ["furo", "sphinx"]
-lint = ["black", "mypy", "ruff"]
-support = ["sphobjinv"]
-test = ["coverage[toml]", "pytest", "pytest-cov"]
-
-[[package]]
 name = "tokenize-rt"
 version = "6.1.0"
 description = "A wrapper around the stdlib `tokenize` which roundtrips."
@@ -898,4 +858,4 @@ markers = {main = "python_version < \"3.13\""}
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "4d479caadf1a56efe5ff8567a55c99e77a66ce9f102e1787d73501547e01179d"
+content-hash = "6d6d516b4da90611df7a6f83a1135bb28782363333d08d794a225b393f7adf22"
