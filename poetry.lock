@@ -401,14 +401,14 @@ develop = ["build", "twine"]
 
 [[package]]
 name = "flake8-simplify"
-version = "0.30.0"
+version = "0.31.1"
 description = "flake8 plugin which checks for code that can be simplified"
 optional = false
-python-versions = ">=3.9.0"
+python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "flake8_simplify-0.30.0-py3-none-any.whl", hash = "sha256:c9f54a50d24780832a3f2bb7a687ef465b91f10d7cb4ea0845dff4b65d9c91f4"},
-    {file = "flake8_simplify-0.30.0.tar.gz", hash = "sha256:61bff74fab73884e1ec12e472d67e7e789043028ff858e5f9af389d392d65b82"},
+    {file = "flake8_simplify-0.31.1-py3-none-any.whl", hash = "sha256:642c1688a7308e00c6b2b2eb47b0cc66e6ee8440227b8540bab7d05e382279cc"},
+    {file = "flake8_simplify-0.31.1.tar.gz", hash = "sha256:3830f39afed7dc76d6a6f4db006f5a460e1cb8ebe82e08c1d99c5f4e24fab26d"},
 ]
 
 [package.dependencies]
@@ -956,4 +956,4 @@ markers = {main = "python_version < \"3.13\""}
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "278719a55c4eadc9e08ce1abd7a6322a561621c292d4b9bf9b739767c18a419e"
+content-hash = "9cff69df00adfed7a3a200d320604d7d15d0cb2031a40796fd1ffd280492cef8"
